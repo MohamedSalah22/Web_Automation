@@ -1,0 +1,23 @@
+I Need to simulate the creation of course scenarios at winjigo website:
+
+1- I Navigate to URL of Website
+2- I Enter Valid user Name and Password
+3- I Click on Login button
+4- I Click on Add Course button
+5- I Fill Mandatory Information
+6- Then I Check Course is Created
+
+Notes:
+I am use Cucumber, Selenium with Java, Maven and Junit.
+
+The Development of Test Scenario is written using Page Object Model.
+
+I am Create 2 Properties Files to Read Input Data:
+1- Config File (Contain URL,User Name and Password)
+2- ResourcesFile (Contain all Paths I need it to Execute Scenario)
+
+Maven Dependency:
+1- Cucumber
+2- Selenium Java
+3- Junit
+4- Junit Cucumber
